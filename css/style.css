@@ -3,17 +3,18 @@
   padding: 0;
 }
 body {
-  font-family: “Raleway”, sans-serif;
   font-family: “Roboto”, sans-serif;
+  font-weight: normal;
   color: #212121;
   background-color: #ececec;
+  width: 1600px;
+  letter-spacing: 0.03em;
 }
 h4 a {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .web {
@@ -35,6 +36,7 @@ h4 a {
 .navlink:hover,
 .navlink:focus {
   color: #2196f3;
+  cursor: pointer;
 }
 .contact {
   font-family: "Roboto";
@@ -64,6 +66,8 @@ h1 {
 .orderservice {
   width: 200px;
   height: 50px;
+  left: 744px;
+  top: 560px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -80,7 +84,6 @@ h1 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .description {
@@ -88,7 +91,6 @@ h1 {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 h2 {
@@ -98,7 +100,6 @@ h2 {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .name {
   font-family: "Roboto";
@@ -107,7 +108,6 @@ h2 {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .jobtitle {
   font-family: "Roboto";
@@ -115,7 +115,6 @@ h2 {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 address {
@@ -123,16 +122,13 @@ address {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: #ffffff;
 }
 .footercontact {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
-  font-size: 1.71;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
 .filters button {
@@ -140,13 +136,27 @@ address {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6x;
+  line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 button:hover,
 button:focus {
   color: white;
   background-color: #2196f3;
   cursor: pointer;
+}
+.workdone {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.workingarea {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #757575;
 }
