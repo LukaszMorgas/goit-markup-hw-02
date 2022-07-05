@@ -68,6 +68,8 @@ h1 {
   line-height: 1.9;
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: #2196f3;
+  color: white;
 }
 .advantages {
   font-weight: 700;
@@ -108,17 +110,20 @@ address {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
-.filters button {
+.buttons {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
 }
-button:hover,
-button:focus {
+.buttons:hover,
+.buttons.focus {
   color: white;
   background-color: #2196f3;
   cursor: pointer;
+}
+
+  
 }
 .workdone {
   font-weight: 700;
