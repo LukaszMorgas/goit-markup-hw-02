@@ -16,6 +16,9 @@
   --white: #ffffff;
   --logocolor1: #2196f3;
   --logocolor2: black;
+  --fontW7: 700;
+  --fontW5: 500;
+  --hoovercursor: pointer;
 }
 
 body {
@@ -43,7 +46,7 @@ h4 a {
   color: var(--logocolor2);
 }
 .navlink {
-  font-weight: 500;
+  font-weight: var(--fontW5);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -53,15 +56,15 @@ h4 a {
 .navlink:hover,
 .navlink:focus {
   color: var(--secondcolor);
-  cursor: pointer;
+  cursor: var(--hoovercursor);
 }
 .footercontact:hover,
 .footercontact:focus {
   color: var(--secondcolor);
-  cursor: pointer;
+  cursor: var(--hoovercursor);
 }
 .contact {
-  font-weight: 500;
+  font-weight: var(--fontW5);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -70,7 +73,7 @@ h4 a {
 .contact:hover,
 .navlink:focus {
   color: var(--secondcolor);
-  cursor: pointer;
+  cursor: var(--hoovercursor);
 }
 h1 {
   font-weight: 900;
@@ -84,7 +87,7 @@ h1 {
 .orderservice {
   width: 200px;
   height: 50px;
-  font-weight: 700;
+  font-weight: var(--fontW7);
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
@@ -93,7 +96,7 @@ h1 {
   color: var(--white);
 }
 .advantages {
-  font-weight: 700;
+  font-weight: var(--fontW7);
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -104,13 +107,13 @@ h1 {
   color: var(--thirdcolor);
 }
 h2 {
-  font-weight: 700;
+  font-weight: var(--fontW7);
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
 .name {
-  font-weight: 500;
+  font-weight: var(--fontW5);
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -132,7 +135,7 @@ address {
   color: rgba(255, 255, 255, 0.6);
 }
 .buttons {
-  font-weight: 500;
+  font-weight: var(--fontW5);
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
@@ -141,10 +144,10 @@ address {
 .buttons.focus {
   color: var(--white);
   background-color: var(--secondcolor);
-  cursor: pointer;
+  cursor: var(--hoovercursor);
 }
 .workdone {
-  font-weight: 700;
+  font-weight: var(--fontW7);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
