@@ -1,13 +1,29 @@
 * {
-  margin: 5px;
+  margin: 0;
   padding: 0;
 }
+.main-container {
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+:root {
+  --maincolor: #212121;
+  --secondcolor: #2196f3;
+  --thirdcolor: #757575;
+  --backgroundcolor: #ececec;
+  --black: black;
+  --white: #ffffff;
+  --logocolor1: #2196f3;
+  --logocolor2: black;
+}
+
 body {
   font-family: “Roboto”, sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: #212121;
-  background-color: #ececec;
+  color: var(--maincolor);
+  background-color: var(--backgroundcolor);
   width: 1600px;
   letter-spacing: 0.03em;
 }
@@ -21,10 +37,10 @@ h4 a {
   text-decoration: none;
 }
 .web {
-  color: #2196f3;
+  color: var(--logocolor1);
 }
 .studio {
-  color: black;
+  color: var(--logocolor2);
 }
 .navlink {
   font-weight: 500;
@@ -32,11 +48,16 @@ h4 a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #212121;
+  color: var(--maincolor);
 }
 .navlink:hover,
 .navlink:focus {
-  color: #2196f3;
+  color: var(--secondcolor);
+  cursor: pointer;
+}
+.footercontact:hover,
+.footercontact:focus {
+  color: var(--secondcolor);
   cursor: pointer;
 }
 .contact {
@@ -44,11 +65,11 @@ h4 a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--thirdcolor);
 }
 .contact:hover,
 .navlink:focus {
-  color: #2196f3;
+  color: var(--secondcolor);
   cursor: pointer;
 }
 h1 {
@@ -58,7 +79,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white);
 }
 .orderservice {
   width: 200px;
@@ -68,8 +89,8 @@ h1 {
   line-height: 1.9;
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: #2196f3;
-  color: white;
+  background-color: var(--secondcolor);
+  color: var(--white);
 }
 .advantages {
   font-weight: 700;
@@ -80,7 +101,7 @@ h1 {
 .description {
   font-size: 14px;
   line-height: 1.7;
-  color: #757575;
+  color: var(--thirdcolor);
 }
 h2 {
   font-weight: 700;
@@ -98,12 +119,12 @@ h2 {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  color: #757575;
+  color: var(--thirdcolor);
 }
 address {
   font-size: 14px;
   line-height: 1.71;
-  color: #ffffff;
+  color: var(--white);
 }
 .footercontact {
   font-size: 14px;
@@ -118,8 +139,8 @@ address {
 }
 .buttons:hover,
 .buttons.focus {
-  color: white;
-  background-color: #2196f3;
+  color: var(--white);
+  background-color: var(--secondcolor);
   cursor: pointer;
 }
 .workdone {
@@ -131,5 +152,5 @@ address {
 .workingarea {
   font-size: 16px;
   line-height: 1.9;
-  color: #757575;
+  color: var(--thirdcolor);
 }
