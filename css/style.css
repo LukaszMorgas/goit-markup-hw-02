@@ -19,7 +19,6 @@
   --fontW7: 700;
   --fontW5: 500;
   --hoovercursor: pointer;
-}
 
 body {
   font-family: “Roboto”, sans-serif;
@@ -135,10 +134,12 @@ address {
   color: rgba(255, 255, 255, 0.6);
 }
 .buttons {
+
   font-weight: var(--fontW5);
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+
 }
 .buttons:hover,
 .buttons.focus {
